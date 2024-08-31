@@ -1,5 +1,4 @@
 name: SeniorOS V2 - 鸿稀鳞绝
-run-name: ${{ gitea.actor }} is testing out Gitea Actions 🚀
 on: [push]
 
 jobs:
