@@ -3,7 +3,7 @@ run-name: ${{ gitea.actor }} is testing out Gitea Actions 🚀
 on: [push]
 
 jobs:
-  Explore-Gitea-Actions:
+  bash-example:
     runs-on: ubuntu-latest
     steps:
       - name: Equipping Items
