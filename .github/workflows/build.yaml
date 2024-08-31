@@ -7,11 +7,11 @@ jobs:
     steps:
       - name: Equipping Items
         run: |
-          apt-get update
-          apt-get install git curl wget python3 python-is-python3 python3-pip -y
-          pip install virtualenv --break-system-packages
+          sudo apt-get update
+          sudo apt-get install git curl wget python3 python-is-python3 python3-pip -y
+          sudo pip install virtualenv --break-system-packages
           cd ./esp-idf
-          pip install -r requirement.txt --break-system-packages
+          sudo pip install -r requirement.txt --break-system-packages
           sudo ./install.sh          
       - name: Build
         run: |
